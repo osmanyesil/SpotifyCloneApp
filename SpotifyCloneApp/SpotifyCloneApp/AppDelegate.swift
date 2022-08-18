@@ -14,12 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .white
+        window?.backgroundColor = .spotifyBlack
         window?.makeKeyAndVisible()
         
         let navigatorController = UINavigationController(rootViewController: TitleBarController())
-        navigatorController.navigationBar.backgroundColor = .red
         window?.rootViewController = navigatorController
+        
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().barTintColor = .spotifyBlack
         
         return true
     }

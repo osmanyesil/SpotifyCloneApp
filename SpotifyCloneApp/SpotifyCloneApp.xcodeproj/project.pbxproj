@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DAFE457881B29CDBEF64094 /* Pods_SpotifyCloneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18AAB686EA0E8E0BDCDCF79 /* Pods_SpotifyCloneApp.framework */; };
+		826B555928ADB120000510E1 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B555828ADB120000510E1 /* Container.swift */; };
+		826B555B28ADBBB5000510E1 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826B555A28ADBBB5000510E1 /* Factories.swift */; };
 		8281327328ACEE2100A60B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281327228ACEE2100A60B33 /* AppDelegate.swift */; };
 		8281327728ACEE2100A60B33 /* TitleBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281327628ACEE2100A60B33 /* TitleBarController.swift */; };
 		8281327C28ACEE2300A60B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8281327B28ACEE2300A60B33 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* Begin PBXFileReference section */
 		1E4341ED34F700F81CC36AFC /* Pods-SpotifyCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyCloneApp.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyCloneApp/Pods-SpotifyCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
 		50540E1636FEFAC50CE59AFA /* Pods-SpotifyCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyCloneApp.release.xcconfig"; path = "Target Support Files/Pods-SpotifyCloneApp/Pods-SpotifyCloneApp.release.xcconfig"; sourceTree = "<group>"; };
+		826B555828ADB120000510E1 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		826B555A28ADBBB5000510E1 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 		8281326F28ACEE2100A60B33 /* SpotifyCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8281327228ACEE2100A60B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8281327628ACEE2100A60B33 /* TitleBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBarController.swift; sourceTree = "<group>"; };
@@ -78,7 +82,9 @@
 			children = (
 				82D0954928ACFE8600A16D68 /* Files */,
 				8281327228ACEE2100A60B33 /* AppDelegate.swift */,
+				826B555A28ADBBB5000510E1 /* Factories.swift */,
 				8281327628ACEE2100A60B33 /* TitleBarController.swift */,
+				826B555828ADB120000510E1 /* Container.swift */,
 			);
 			path = SpotifyCloneApp;
 			sourceTree = "<group>";
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8281327728ACEE2100A60B33 /* TitleBarController.swift in Sources */,
+				826B555928ADB120000510E1 /* Container.swift in Sources */,
+				826B555B28ADBBB5000510E1 /* Factories.swift in Sources */,
 				8281327328ACEE2100A60B33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
