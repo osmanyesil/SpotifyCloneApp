@@ -14,6 +14,8 @@
 		8281327728ACEE2100A60B33 /* TitleBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281327628ACEE2100A60B33 /* TitleBarController.swift */; };
 		8281327C28ACEE2300A60B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8281327B28ACEE2300A60B33 /* Assets.xcassets */; };
 		8281327F28ACEE2300A60B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8281327D28ACEE2300A60B33 /* LaunchScreen.storyboard */; };
+		82A13B7928B28D70007ADC76 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A13B7828B28D70007ADC76 /* HomeController.swift */; };
+		82A13B7B28B28E25007ADC76 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A13B7A28B28E25007ADC76 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		8281327B28ACEE2300A60B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8281327E28ACEE2300A60B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8281328028ACEE2300A60B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A13B7828B28D70007ADC76 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		82A13B7A28B28E25007ADC76 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		E18AAB686EA0E8E0BDCDCF79 /* Pods_SpotifyCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,8 @@
 				826B555A28ADBBB5000510E1 /* Factories.swift */,
 				8281327628ACEE2100A60B33 /* TitleBarController.swift */,
 				826B555828ADB120000510E1 /* Container.swift */,
+				82A13B7828B28D70007ADC76 /* HomeController.swift */,
+				82A13B7A28B28E25007ADC76 /* MenuBar.swift */,
 			);
 			path = SpotifyCloneApp;
 			sourceTree = "<group>";
@@ -197,8 +203,10 @@
 			files = (
 				8281327728ACEE2100A60B33 /* TitleBarController.swift in Sources */,
 				826B555928ADB120000510E1 /* Container.swift in Sources */,
+				82A13B7B28B28E25007ADC76 /* MenuBar.swift in Sources */,
 				826B555B28ADBBB5000510E1 /* Factories.swift in Sources */,
 				8281327328ACEE2100A60B33 /* AppDelegate.swift in Sources */,
+				82A13B7928B28D70007ADC76 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
