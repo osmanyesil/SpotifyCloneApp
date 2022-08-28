@@ -17,6 +17,7 @@
 		82A13B7928B28D70007ADC76 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A13B7828B28D70007ADC76 /* HomeController.swift */; };
 		82A13B7B28B28E25007ADC76 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A13B7A28B28E25007ADC76 /* MenuBar.swift */; };
 		82A13B7D28B29801007ADC76 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A13B7C28B29801007ADC76 /* PlaylistCell.swift */; };
+		82B5B11F28B53B1100281B92 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5B11E28B53B1100281B92 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		82A13B7828B28D70007ADC76 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		82A13B7A28B28E25007ADC76 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		82A13B7C28B29801007ADC76 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		82B5B11E28B53B1100281B92 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E18AAB686EA0E8E0BDCDCF79 /* Pods_SpotifyCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				82A13B7828B28D70007ADC76 /* HomeController.swift */,
 				82A13B7A28B28E25007ADC76 /* MenuBar.swift */,
 				82A13B7C28B29801007ADC76 /* PlaylistCell.swift */,
+				82B5B11E28B53B1100281B92 /* Data.swift */,
 			);
 			path = SpotifyCloneApp;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				826B555B28ADBBB5000510E1 /* Factories.swift in Sources */,
 				8281327328ACEE2100A60B33 /* AppDelegate.swift in Sources */,
 				82A13B7928B28D70007ADC76 /* HomeController.swift in Sources */,
+				82B5B11F28B53B1100281B92 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
